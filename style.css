@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans&family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+body{margin: 0px;}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 120px 35px 120px;
+    margin: 0px;
+
+}
+
+.site-title{
+    font-size: 24px;
+    font-size: 700;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.nav li{
+    font-size: 16px;
+    list-style: none;
+    margin-left: 34px;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px 45px 120px;
+    margin-bottom: 20px;
+}
+
+.site-intro
+{
+    width: 50%;
+}
+
+.site-intro h1{
+    padding-top: 10PX;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+
+.site-intro p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.prebook-btn{
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.fa-arrow-right{
+    color: #FFFFFF;
+    padding-left: 8px;
+    font-size: 16px;
+}
+.gadget-img{
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: right;
+    justify-content: right;
+    width: 50%;
+
+}
+
+hr{
+    border: 0;
+    height: 1.2px;
+    background-image: linear-gradient(to right, rgba(170, 170, 170, 0), rgba(170, 170, 170, 0.75), rgba(170, 170, 170, 0));
+    margin: 0px 120px;
+}
+
+.icon-banner{
+    padding: 25px 120px 15px 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px rgb(170, 170, 170);
+
+}
+
+.popular-collection{
+    padding: 55px 100px 15px 100px;
+}
+
+.s2-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.collections{
+    border: 1px solid black;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    justify-items: center;
+
+}
+
+.collection{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: fit-content;
+}
+.product-name{
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+    margin-bottom: 0px;
+}
+
+.product-price{
+    margin-top: 2px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.87);
+    margin-bottom: 0px;
+}
+
+.rating{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.fa-star, .fa-star-half-stroke{
+    color: #FB8200;
+    font-size: 14px;
+    padding-right: 4px;
+}
+
+.rate{
+    font-size: 14px;
+}
+
+.product-description{
+    margin-top: 5px;
+    color: #787885;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.see-more{
+    color: #E02C6D;
+    text-align: right;
+}
+.a2{
+    color: #E02C6D;
+    padding-left: 8px;
+}
+
+.featured{
+    padding: 90px 120px 70px 120px;;
+    display: flex;
+    justify-content: space-between;
+    gap: 74px;
+}
+
+.f-title{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 20px;
+}
+
+.f-description{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.join-btn{
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+footer{
+    background-color: #0A0826;
+    padding: 20px 40px;
+    margin: 0px;
+}
+.footer-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer-des{
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.s-icon{
+    padding-right: 15px;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter, .fa-youtube{
+    color: #FFFFFF;
+}
